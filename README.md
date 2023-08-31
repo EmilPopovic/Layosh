@@ -14,6 +14,7 @@ Layosh is a Python Discord bot designed to streamline communication between univ
 
 - Clone this repository to your local machine.
 - Create an `Attachments` folder in the working directory (next to `main.py` and company).
+- Add some funny quotes to `quotes.txt`. This was not my idea, blame my friend.
 - Configure the bot token and other settings at the top of `main.py`.
 - Install the required dependencies using `pip install discord` (Everything else is from the standard library!).
 - Run the bot by running `main.py`.
