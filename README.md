@@ -41,4 +41,4 @@ Layosh is a Python Discord bot designed to streamline communication between univ
 
 ### Contributing
 
-Contributions are encouraged and welcome! If you have suggestions, bug fixes, or feature enhancements, feel free to open issues and pull requests. Or just keep them to yourself, you greedy bastard! -_-
+Contributions are encouraged and welcome! If you have suggestions, bug fixes, or feature enhancements, feel free to open issues and pull requests. Or just keep them to yourself, you greedy bastard! ',:/

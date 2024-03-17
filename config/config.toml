@@ -1,0 +1,64 @@
+[imap]
+imap_server = 'IMAP SERVER ADDRESS'
+imap_port = IMAP SERVER PORT
+
+[filepaths]
+channels_fp = 'data/channels.json'
+email_fp = 'data/last_email_id.json'
+quotes_fp = 'config/quotes.txt'
+sites_fp = 'config/valid_sites.json'
+subscriptions_fp = 'config/default_subscriptions.json'
+
+[auth]
+email_address = 'FORWARDED TO ADDRESS'
+email_password = 'EMAIL APP PASSWORD'
+test_discord_token = 'OPTIONAL DISCORD BOT TOKEN'
+prod_discord_token = 'DISCORD BOT TOKEN'
+
+[colors]
+red    = [242,  63,  67]
+yellow = [240, 178,  50]
+green  = [ 33, 155,  85]
+blue   = [ 88, 101, 242]
+accent = [147,  37,  48]
+
+[features]
+attachments = false
+quotes = true
+strip_end = false
+show_subject = true
+show_time = true
+show_sender = true
+show_tldr = true
+create_thread = true
+show_thumbnail = true
+show_author = true
+show_site = true
+show_portlet = true
+show_event = true
+
+[strings]
+strip_end_string = '(Ova e-mail poruka Vam je poslana jer su na odgovarajućim stranicama uključene opcije pretplate na sadržaj i slanja obavijesti na e-mail. Ukoliko ne želite više primati ovakve poruke, molimo isključite opcije slanja obavijesti putem e-maila na dotičnim stranicama.)'
+
+[misc]
+check_interval_minutes = 1
+char_limit = 2000
+search_criteria = '(FROM "DETECT MAIL SENT FROM THIS ADDRESS")'
+thumbnail_url = 'MESSAGE THUMBNAIL URL'
+test_invite_url = 'OPTIONAL BOT INVITE URL'
+prod_invite_url = 'BOT INVITE URL'
+
+[debug]
+debug_mode = true
+quiet_mode = false
+
+[modes]
+legacy_mode = false
+test_mode = false
+
+[openai]
+api_key = 'OPENAI API KEY'
+model = 'gpt-3.5-turbo'
+system_message = 'Dobit ćeš mail od fakulteta. Tvoj je zadatak napisati sažetak poruke koji će biti prikazan kao tl;dr iznad poruke. Sažetak napiši direktno bez npr. naslova.'
+max_tokens = 192
+temperature = 0.7

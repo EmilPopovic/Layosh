@@ -1,0 +1,10 @@
+{
+    "Intranet - Obavijesti studentima" : {
+        "portlets": [
+            "Sadržaj",
+            "Repozitorij",
+            "Obavijesti",
+            "Anketa"
+        ]
+    }
+}
