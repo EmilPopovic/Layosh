@@ -1,9 +1,0 @@
-version: '3'
-services:
-  app:
-    build: .
-    image: announcements-discord-bot
-    volumes:
-      - ./Attachments:/app/Attachments
-      - ./data/channels.json:/app/data/channels.json
-      - ./data/last_email_id.json:/app/data/last_email_id.json
